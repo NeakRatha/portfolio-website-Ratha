@@ -132,10 +132,10 @@ linkWork.forEach((a) => a.addEventListener('click', ActiveWork));
 
 /*==================== EMAIL JS ====================*/
 const contactForm = document.getElementById('contact-form'),
-  contactName = document.getElementById('contact-name');
-contactEmail = document.getElementById('contact-email');
-contactMessage = document.getElementById('contact-message');
-message = document.getElementById('message');
+  contactName = document.getElementById('contact-name'),
+  contactEmail = document.getElementById('contact-email'),
+  contactMessage = document.getElementById('contact-message'),
+  message = document.getElementById('message');
 
 const sendEmail = (e) => {
   e.preventDefault();
@@ -153,7 +153,7 @@ const sendEmail = (e) => {
   } else {
     emailjs
       .sendForm(
-        'service_lcp2cdt',
+        'service_mhog55c',
         'template_22vwm8e',
         '#contact-form',
         'jZ6cdKlDA4PDg0iop'
